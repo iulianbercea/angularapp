@@ -2,30 +2,52 @@ var app = angular.module ("MyApp", []);
 
 app.controller("headerController", function($scope){
     
-    $scope.logoUrl = "../img/logo.jpg";
+    $scope.logoUrl = "img/logo2.png";
     
 });
 
 app.controller("adsController", function($scope){
     
-    $scope.advert = [
+    $scope.adverts = [
         {
-            url: "../img/ad1.jpg"
+            url: "img/ad9.jpg",
+            dateAdded:"",
+            availability:"store"
         },
         {
-            url: "../img.ad2.jpg"
+            url: "img/ad10.jpg",
+            dateAdded:"",
+            availability:"online"
         },
         {
-            url: "../img/ad3.jpg"
+            url: "img/ad11.jpg",
+            dateAdded:"",
+            availability:"store"
         },
         {
-            url: "../img.ad4.jpg"
+            url: "img/ad12.jpg",
+            dateAdded:"",
+            availability:"online"
         },
         {
-            url: "../img.ad5.jpg"
+            url: "img/ad13.jpg",
+            dateAdded:"",
+            availability:"online"
         },
         {
-            url: "../img.ad6.jpg"
+            url: "img/ad14.jpg",
+            dateAdded:"",
+            availability:"store"
+        },
+        {
+            url: "img/ad15.jpg",
+            dateAdded:"",
+            availability:"store"
+        },
+        {
+            url: "img/ad16.jpg",
+            dateAdded:"",
+            availability:"online"
         }
         ];
         
